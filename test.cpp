@@ -39,7 +39,7 @@ class Stack{
             return strData;
         }
         string Peek(){
-            if(IsEmpty()){
+            if(IsEmpty){
                 return NULL;
             }
             return top->strWebsite;
